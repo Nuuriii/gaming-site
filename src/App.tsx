@@ -1,3 +1,9 @@
+import { Hero } from "./component/heroSections/Hero";
+
 export const App = () => {
-   return <div>App</div>;
+   return (
+      <div>
+         <Hero />
+      </div>
+   );
 };
