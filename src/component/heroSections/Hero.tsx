@@ -1,4 +1,5 @@
 import {
+   Container,
    Wrapper,
    Description,
    FirstText,
@@ -12,7 +13,7 @@ import Stick from "../../../public/Stick.svg";
 
 export const Hero = () => {
    return (
-      <div>
+      <Container>
          <Wrapper>
             <Description>
                <FirstText>Proved By prodesigner</FirstText>
@@ -30,6 +31,6 @@ export const Hero = () => {
                <img src={Stick} alt='' />
             </ImageWrapper>
          </Wrapper>
-      </div>
+      </Container>
    );
 };

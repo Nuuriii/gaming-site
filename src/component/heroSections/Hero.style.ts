@@ -1,12 +1,24 @@
 import styled from "styled-components";
 
+export const Container = styled.div`
+   display: flex;
+   justify-content: center;
+   width: 100vw;
+`;
+
 export const Wrapper = styled.div`
    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
    display: flex;
    font-family: Poppins;
    height: 100vh;
+   align-items: center;
    background: linear-gradient(180deg, #39289f 0%, #422f9c 100%);
    justify-content: center;
+   width: 100vw;
+   @media screen and (min-width: 1680px) {
+      width: 80rem;
+      height: 44rem;
+   }
 `;
 
 export const Description = styled.div`
@@ -68,5 +80,9 @@ export const ImageWrapper = styled.div`
    justify-content: end;
    img {
       height: 36rem;
+      @media screen and (min-width: 1680px) {
+         width: 100%;
+         height: 100%rem;
+      }
    }
 `;
