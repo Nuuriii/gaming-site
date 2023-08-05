@@ -5,6 +5,7 @@ export const WrapperPath = styled.div`
    flex-direction: column;
    background-image: url("../../../public/background.svg");
    min-height: 500px;
+   background-blend-mode: darken;
    justify-content: center;
    width: 100vw;
 `;
@@ -13,6 +14,7 @@ export const InformationPath = styled.div`
    display: flex;
    color: white;
    flex-direction: column;
+   padding: 5rem 0 0 0;
    margin-bottom: 3rem;
    h2 {
       text-align: center;
