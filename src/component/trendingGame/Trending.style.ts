@@ -30,7 +30,13 @@ export const Button = styled.button`
    border-radius: 0.3rem;
    font-weight: 500;
    padding: 0.6rem 1.3rem;
-   background: rgba(255, 255, 255, 0.11);
+   background: rgb(51, 26, 163);
+   &:hover {
+      transform: scale(1.071);
+   }
+   &:active {
+      transform: scale(0.96);
+   }
 `;
 
 export const ImageWrapper = styled.div`
