@@ -6,6 +6,14 @@ const ImageWrapper = styled.div`
    align-items: center;
 `;
 
+const ImagePath = styled.img`
+   background-color: green;
+   border-radius: 100%;
+   padding: 1.1rem;
+   height: 5rem;
+   witdh: 5rem;
+`;
+
 interface Path {
    img: string;
    title: string;
@@ -15,7 +23,7 @@ interface Path {
 const Path = ({ img, title, icon }: Path) => {
    return (
       <ImageWrapper>
-         <img src={img} alt='imagePath' />
+         <ImagePath src={img} alt='imagePath' />
          <p>{title}</p>
          <img src={icon} alt='icon' />
       </ImageWrapper>
