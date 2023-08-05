@@ -13,6 +13,7 @@ export const InformationPath = styled.div`
    display: flex;
    color: white;
    flex-direction: column;
+   margin-bottom: 3rem;
    h2 {
       text-align: center;
    }

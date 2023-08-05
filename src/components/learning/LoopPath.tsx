@@ -3,7 +3,8 @@ import Path from "./Path";
 
 const List = styled.li`
    display: flex;
-   margin-right: 3rem;
+   margin-right: 7rem;
+   margin-bottom: 3rem;
 `;
 
 const ListWrapper = styled.ul`
