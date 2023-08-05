@@ -1,4 +1,5 @@
 import Image from "./Image";
+import { ListWrapper } from "./Trending.style";
 
 interface ImageLooProps {
    loop: Image[];
@@ -6,16 +7,16 @@ interface ImageLooProps {
 
 export const ImageLoop = ({ loop }: ImageLooProps) => {
    return (
-      <div>
+      <ListWrapper>
          {loop.map((item, index) => (
-            <div key={index}>
+            <li key={index}>
                <Image
                   game={item.game}
                   followers={item.followers}
                   icon={item.icon}
                />
-            </div>
+            </li>
          ))}
-      </div>
+      </ListWrapper>
    );
 };

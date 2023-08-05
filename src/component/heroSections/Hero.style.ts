@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
    font-family: Poppins;
    height: 100vh;
    align-items: center;
-   background: linear-gradient(180deg, #39289f 0%, #422f9c 100%);
+   background: linear-gradient(to bottom, rgb(70, 36, 192), rgb(71, 29, 187));
    justify-content: center;
    width: 100vw;
    @media screen and (min-width: 1680px) {

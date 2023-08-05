@@ -1,3 +1,5 @@
+import { ImageContainer, GameImage, InformationGame } from "./Trending.style";
+
 interface Image {
    game: string;
    followers: number;
@@ -6,15 +8,15 @@ interface Image {
 
 const Image = ({ game, followers, icon }: Image) => {
    return (
-      <div>
-         <div>
+      <ImageContainer>
+         <GameImage>
             <img src={game} alt='' />
-         </div>
-         <div>
+         </GameImage>
+         <InformationGame>
             <img src={icon} alt='' />
             <p>{followers} Followers</p>
-         </div>
-      </div>
+         </InformationGame>
+      </ImageContainer>
    );
 };
 
