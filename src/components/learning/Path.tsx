@@ -4,6 +4,9 @@ const ImageWrapper = styled.div`
    display: flex;
    flex-direction: column;
    align-items: center;
+   p {
+      padding: 1rem 0;
+   }
 `;
 
 const ImagePath = styled.img`
