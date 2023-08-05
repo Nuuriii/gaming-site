@@ -1,3 +1,11 @@
 export const Information = () => {
-   return <div>Information</div>;
+   return (
+      <div>
+         <div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+      </div>
+   );
 };
