@@ -4,7 +4,7 @@ interface Path {
    icon: string;
 }
 
-export const Path = ({ img, title, icon }: Path) => {
+const Path = ({ img, title, icon }: Path) => {
    return (
       <div>
          <img src={img} alt='imagePath' />
@@ -13,3 +13,5 @@ export const Path = ({ img, title, icon }: Path) => {
       </div>
    );
 };
+
+export default Path;
