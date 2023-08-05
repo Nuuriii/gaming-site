@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const WrapperInfo = styled.div`
    display: flex;
+   flex-direction: column;
 `;
 
 export const FirstInfo = styled.div`

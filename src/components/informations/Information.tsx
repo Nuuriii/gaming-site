@@ -5,6 +5,7 @@ import {
    SecondInfo,
    ThirdInfo,
 } from "./Information.style";
+import Spiderman from "../../../public/Spiderman.svg";
 
 export const Information = () => {
    return (
@@ -24,7 +25,9 @@ export const Information = () => {
                   standard dummy text ever since the 1500s,
                </p>
             </SecondInfo>
-            <ThirdInfo></ThirdInfo>
+            <ThirdInfo>
+               <img src={Spiderman} alt='' />
+            </ThirdInfo>
          </WrapperInfo>
       </Container>
    );
