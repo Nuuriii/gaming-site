@@ -26,7 +26,7 @@ export const Information = () => {
                </p>
             </SecondInfo>
             <ThirdInfo>
-               <img src={Spiderman} alt='' />
+               <img src={Spiderman} alt='Spiderman' />
             </ThirdInfo>
          </WrapperInfo>
       </Container>
