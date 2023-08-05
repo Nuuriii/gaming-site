@@ -1,11 +1,12 @@
-import { Hero } from "./component/heroSections/Hero";
-import { Trending } from "./component/trendingGame/Trending";
-
+import { Hero } from "./components/heroSections/Hero";
+import { Trending } from "./components/trendingGame/Trending";
+import { Information } from "./components/informations/Information";
 export const App = () => {
    return (
       <div>
          <Hero />
          <Trending />
+         <Information />
       </div>
    );
 };
