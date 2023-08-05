@@ -6,11 +6,12 @@ const ImageWrapper = styled.div`
    align-items: center;
    p {
       padding: 1rem 0;
+      color: white;
    }
 `;
 
 const ImagePath = styled.img`
-   background-color: green;
+   background-color: white;
    border-radius: 100%;
    padding: 1.1rem;
    height: 5rem;
