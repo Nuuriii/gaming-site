@@ -22,7 +22,7 @@ export const SecondInfo = styled.div`
    color: white;
    font-family: Poppins, sans;
    display: flex;
-   width: 100%;
+   width: 96%;
    flex-direction: column;
    align-items: start;
    h3 {
@@ -36,4 +36,5 @@ export const SecondInfo = styled.div`
 
 export const ThirdInfo = styled.div`
    display: flex;
+   margin: 2rem 0 0 0;
 `;
