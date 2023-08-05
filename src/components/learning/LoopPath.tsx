@@ -9,6 +9,8 @@ const List = styled.li`
 const ListWrapper = styled.ul`
    list-style: none;
    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
 `;
 
 interface Paths {
