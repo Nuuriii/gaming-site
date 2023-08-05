@@ -7,6 +7,10 @@ export const WrapperInfo = styled.div`
    align-items: center;
    padding: 3rem 5rem;
    background: linear-gradient(to bottom, rgb(106, 78, 209), rgb(71, 29, 187));
+   @media screen and (min-width: 1680px) {
+      width: 80rem;
+      height: auto;
+   }
 `;
 
 export const FirstInfo = styled.div`
@@ -36,5 +40,5 @@ export const SecondInfo = styled.div`
 
 export const ThirdInfo = styled.div`
    display: flex;
-   margin: 2rem 0 0 0;
+   margin: 2rem 0 2rem 0;
 `;
