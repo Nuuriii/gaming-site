@@ -1,3 +1,11 @@
+import styled from "styled-components";
+
+const ImageWrapper = styled.div`
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+`;
+
 interface Path {
    img: string;
    title: string;
@@ -6,11 +14,11 @@ interface Path {
 
 const Path = ({ img, title, icon }: Path) => {
    return (
-      <div>
+      <ImageWrapper>
          <img src={img} alt='imagePath' />
          <p>{title}</p>
          <img src={icon} alt='icon' />
-      </div>
+      </ImageWrapper>
    );
 };
 
