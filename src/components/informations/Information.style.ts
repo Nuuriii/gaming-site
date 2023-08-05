@@ -5,7 +5,7 @@ export const WrapperInfo = styled.div`
    display: flex;
    flex-direction: column;
    align-items: center;
-   padding: 0 5rem;
+   padding: 3rem 5rem;
    background: linear-gradient(to bottom, rgb(106, 78, 209), rgb(71, 29, 187));
 `;
 
@@ -15,10 +15,23 @@ export const FirstInfo = styled.div`
    color: white;
    text-align: center;
    font-weight: 600;
+   margin: 0 0 4rem 0;
 `;
 
 export const SecondInfo = styled.div`
+   color: white;
+   font-family: Poppins, sans;
    display: flex;
+   width: 100%;
+   flex-direction: column;
+   align-items: start;
+   h3 {
+      margin: 0 0 1rem 0;
+      padding: 0;
+   }
+   p {
+      width: 40rem;
+   }
 `;
 
 export const ThirdInfo = styled.div`
