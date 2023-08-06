@@ -4,7 +4,7 @@ import Path from "./Path";
 const List = styled.li`
    display: flex;
    font-family: sans;
-   margin-right: 7rem;
+   margin-right: 2rem;
    margin-bottom: 3rem;
    padding: 1rem;
    justify-content: center;
@@ -15,6 +15,9 @@ const List = styled.li`
       font-weight: 500;
       transform: scale(1.1);
       background-color: rgb(43, 39, 39);
+   }
+   &:active {
+      transform: scale(0.99);
    }
 `;
 
