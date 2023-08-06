@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
 
 export const Description = styled.div`
    display: flex;
-   witdh: 50%;
+   width: 50%;
    margin-right: 1rem;
    justify-content: center;
    font-family: sans;
