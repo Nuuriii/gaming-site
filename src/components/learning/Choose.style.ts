@@ -6,12 +6,13 @@ export const WrapperPath = styled.div`
    flex-direction: column;
    background-image: url("../../../public/background.svg");
    min-height: 500px;
-   padding: 0 3rem;
+   padding: 0 4rem;
    background-attachment: fixed;
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    justify-content: center;
+   align-items: center;
    width: 100vw;
    @media screen and (min-width: 1680px) {
       width: 80rem;
