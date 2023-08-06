@@ -15,7 +15,7 @@ const ImagePath = styled.img`
    border-radius: 100%;
    padding: 1.1rem;
    height: 5rem;
-   witdh: 5rem;
+   width: 5rem;
 `;
 
 interface Path {

@@ -5,7 +5,7 @@ export const WrapperPath = styled.div`
    flex-direction: column;
    background-image: url("../../../public/background.svg");
    min-height: 500px;
-   background-blend-mode: darken;
+   opacity: 10;
    justify-content: center;
    width: 100vw;
 `;
