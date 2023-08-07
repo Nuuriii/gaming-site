@@ -1,4 +1,5 @@
 import Projects from "./Projects";
+import { ProjectWrapper, ProjectContainer } from "./Projects.style";
 
 interface ProjectProps {
    projectData: Projects[];
@@ -6,12 +7,12 @@ interface ProjectProps {
 
 export const LoopImage = ({ projectData }: ProjectProps) => {
    return (
-      <div>
+      <ProjectContainer>
          {projectData.map((item, index) => (
-            <div key={index}>
+            <ProjectWrapper key={index}>
                <Projects image={item.image} />
-            </div>
+            </ProjectWrapper>
          ))}
-      </div>
+      </ProjectContainer>
    );
 };

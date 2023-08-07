@@ -1,12 +1,14 @@
+import { ImageProjects } from "./Projects.style";
+
 interface Projects {
    image: string;
 }
 
 const Projects = ({ image }: Projects) => {
    return (
-      <div>
+      <ImageProjects>
          <img src={image} alt='' />
-      </div>
+      </ImageProjects>
    );
 };
 
