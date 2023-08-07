@@ -27,16 +27,13 @@ export const SecondInfo = styled.div`
    color: white;
    font-family: Poppins, sans;
    display: flex;
-   width: 92%;
-   padding: 0 0rem;
+   padding: 0 2em;
+   width: 90%;
    flex-direction: column;
    align-items: start;
    h3 {
       margin: 0 0 1rem 0;
       padding: 0;
-   }
-   p {
-      width: 40rem;
    }
 `;
 

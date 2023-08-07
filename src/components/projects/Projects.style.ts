@@ -3,6 +3,12 @@ import styled from "styled-components";
 //for Projects Component
 export const ImageProjects = styled.div`
    display: flex;
+   transition: all 0.3s;
+   &:hover {
+      opacity: 1;
+      transform: scale(1.07);
+      transition: all 0.3s;
+   }
 `;
 
 //for LoopImage Component
