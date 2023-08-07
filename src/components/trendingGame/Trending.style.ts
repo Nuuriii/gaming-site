@@ -76,7 +76,17 @@ export const InformationGame = styled.div`
 export const ListWrapper = styled.ul`
    display: flex;
    list-style: none;
-   li {
-      margin-right: 1.9rem;
+`;
+
+export const ListImage = styled.li`
+   margin-right: 1.9rem;
+   transition: all 0.3s;
+   &:hover {
+      opacity: 0.6;
+      transition: all 0.3s;
+      transform: scale(1.059);
+   }
+   &:hover ${ImageContainer} ${InformationGame} p {
+      font-weight: bold;
    }
 `;

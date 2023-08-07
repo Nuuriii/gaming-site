@@ -1,5 +1,5 @@
 import Image from "./Image";
-import { ListWrapper } from "./Trending.style";
+import { ListWrapper, ListImage } from "./Trending.style";
 
 interface ImageLooProps {
    loop: Image[];
@@ -9,13 +9,13 @@ export const ImageLoop = ({ loop }: ImageLooProps) => {
    return (
       <ListWrapper>
          {loop.map((item, index) => (
-            <li key={index}>
+            <ListImage key={index}>
                <Image
                   game={item.game}
                   followers={item.followers}
                   icon={item.icon}
                />
-            </li>
+            </ListImage>
          ))}
       </ListWrapper>
    );
