@@ -23,7 +23,6 @@ export const MainProjects = styled.div`
    flex-direction: column;
    align-items: center;
    background: linear-gradient(to bottom, rgb(106, 78, 209), rgb(71, 29, 187));
-   width: 100vw;
    justify-content: center;
 `;
 

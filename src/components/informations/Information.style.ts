@@ -5,7 +5,7 @@ export const WrapperInfo = styled.div`
    display: flex;
    flex-direction: column;
    align-items: center;
-   padding: 3rem 5rem;
+   padding: 3rem 0rem;
    background: linear-gradient(to bottom, rgb(106, 78, 209), rgb(71, 29, 187));
    @media screen and (min-width: 1680px) {
       width: 80rem;
@@ -17,6 +17,7 @@ export const FirstInfo = styled.div`
    display: flex;
    font-family: Poppins, sans;
    color: white;
+   padding: 0 5rem;
    text-align: center;
    font-weight: 600;
    margin: 0 0 4rem 0;
@@ -26,7 +27,8 @@ export const SecondInfo = styled.div`
    color: white;
    font-family: Poppins, sans;
    display: flex;
-   width: 96%;
+   width: 92%;
+   padding: 0 0rem;
    flex-direction: column;
    align-items: start;
    h3 {
