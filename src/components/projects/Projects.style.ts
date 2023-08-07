@@ -21,6 +21,7 @@ export const ProjectContainer = styled.div`
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
+   margin-bottom: 3rem;
 `;
 
 //style for ShowProjects Component

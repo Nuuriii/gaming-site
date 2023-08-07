@@ -1,6 +1,7 @@
 import { Image } from "./Image";
 import { LoopImage } from "./LoopImage";
 import { Container } from "../heroSections/Hero.style";
+import { Button } from "../trendingGame/Trending.style";
 import { MainProjects, DescriptionProject } from "./Projects.style";
 
 export const ShowProjects = () => {
@@ -15,6 +16,7 @@ export const ShowProjects = () => {
                </p>
             </DescriptionProject>
             <LoopImage projectData={Image} />
+            <Button>SEE ALL</Button>
          </MainProjects>
       </Container>
    );
