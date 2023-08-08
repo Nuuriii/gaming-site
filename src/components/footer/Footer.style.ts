@@ -76,3 +76,27 @@ export const FooterSocialMed = styled.div`
       margin-right: 0.3rem;
    }
 `;
+
+export const SosmedIMG = styled.img`
+   height: 1rem;
+   width: 1rem;
+`;
+
+export const IMG = styled.div`
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   height: 2rem;
+   width: 2rem;
+   border-radius: 100%;
+   padding: 0rem;
+   margin-right: 0.6rem;
+   transition: all 0.3s;
+   &:hover {
+      transform: scale(1.087);
+   }
+   &:active {
+      transform: scale(0.9);
+   }
+`;

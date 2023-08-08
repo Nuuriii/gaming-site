@@ -1,5 +1,5 @@
-import React from "react";
 import ImageProps from "./ImgProps";
+import { IMG } from "./Footer.style";
 
 interface MappImg {
    imgMap: ImageProps[];
@@ -9,9 +9,9 @@ export const Mapping = ({ imgMap }: MappImg) => {
    return (
       <>
          {imgMap.map((item, index) => (
-            <div key={index}>
+            <IMG key={index}>
                <ImageProps img={item.img} />
-            </div>
+            </IMG>
          ))}
       </>
    );

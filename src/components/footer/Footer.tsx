@@ -8,6 +8,8 @@ import {
    FooterContact,
    FooterSocialMed,
 } from "./Footer.style";
+import { FooterImg } from "./SaveImg";
+import { Mapping } from "./Mapping";
 
 export const Footer = () => {
    return (
@@ -20,7 +22,7 @@ export const Footer = () => {
                      Lorem Ipsum is simply dummy text of the printing and
                      typesetting industry.
                   </FooterText>
-                  <p>@Logo</p>
+                  <FooterText>@Logo</FooterText>
                </FooterInformation>
                <FooterAbout>
                   <h4>About Us</h4>
@@ -38,10 +40,7 @@ export const Footer = () => {
                   <FooterText>+908 89097 890</FooterText>
                </FooterContact>
                <FooterSocialMed>
-                  <p>fb</p>
-                  <p>ig</p>
-                  <p>tw</p>
-                  <p>lin</p>
+                  <Mapping imgMap={FooterImg} />
                </FooterSocialMed>
             </FooterDescription>
             <div></div>

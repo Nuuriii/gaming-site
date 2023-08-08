@@ -1,3 +1,5 @@
+import { SosmedIMG } from "./Footer.style";
+
 interface ImageProps {
    img: string;
 }
@@ -5,7 +7,7 @@ interface ImageProps {
 const ImageProps = ({ img }: ImageProps) => {
    return (
       <>
-         <img src={img} alt='icon' />
+         <SosmedIMG src={img} alt='icon' />
       </>
    );
 };
