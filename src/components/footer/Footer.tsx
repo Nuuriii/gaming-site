@@ -1,6 +1,8 @@
 import { Container } from "../heroSections/Hero.style";
 import {
    FooterWrapper,
+   FooterText,
+   FooterDescription,
    FooterInformation,
    FooterAbout,
    FooterContact,
@@ -11,13 +13,13 @@ export const Footer = () => {
    return (
       <Container>
          <FooterWrapper>
-            <FooterInformation>
+            <FooterDescription>
                <FooterInformation>
                   <h1>LOGO</h1>
-                  <p>
+                  <FooterText>
                      Lorem Ipsum is simply dummy text of the printing and
                      typesetting industry.
-                  </p>
+                  </FooterText>
                   <p>@Logo</p>
                </FooterInformation>
                <FooterAbout>
@@ -29,14 +31,19 @@ export const Footer = () => {
                </FooterAbout>
                <FooterContact>
                   <h4>Contact Us</h4>
-                  <p>
+                  <FooterText>
                      Lorem Ipsum is simply dummy text of the printing and
                      typesetting industry.{" "}
-                  </p>
-                  <p>+908 89097 890</p>
+                  </FooterText>
+                  <FooterText>+908 89097 890</FooterText>
                </FooterContact>
-               <FooterSocialMed></FooterSocialMed>
-            </FooterInformation>
+               <FooterSocialMed>
+                  <p>fb</p>
+                  <p>ig</p>
+                  <p>tw</p>
+                  <p>lin</p>
+               </FooterSocialMed>
+            </FooterDescription>
             <div></div>
          </FooterWrapper>
       </Container>
