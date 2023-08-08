@@ -16,10 +16,12 @@ export const FooterDescription = styled.div`
 
 export const FooterAbout = styled.div`
    display: flex;
+   flex-direction: column;
 `;
 
 export const FooterContact = styled.div`
    display: flex;
+   flex-direction: column;
 `;
 
 export const FooterSocialMed = styled.div`
