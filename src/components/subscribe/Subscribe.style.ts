@@ -12,6 +12,9 @@ export const SubscribeWrapper = styled.div`
 export const SubscribeInformation = styled.div`
    display: flex;
    flex-direction: column;
+   background-color: red;
+   width: 80%;
+   margin: 0 0 3rem 0;
 `;
 
 export const SubscribeForm = styled.div`
