@@ -16,3 +16,8 @@ export const SubscribeForm = styled.div`
    border-radius: 0%.3rem;
    padding: 1rem;
 `;
+
+export const FormInformation = styled.div`
+   display: flex;
+   flex-direction: column;
+`;
