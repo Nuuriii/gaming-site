@@ -5,8 +5,12 @@ export const FooterWrapper = styled.div`
    flex-direction: column;
    align-items: center;
    width: 100%;
-   padding: 4rem 2rem;
+   padding: 4rem 2rem 0 2rem;
    background-color: #070707;
+   @media screen and (min-width: 1680px) {
+      width: 80rem;
+      height: auto;
+   }
 `;
 
 export const FooterText = styled.p`
@@ -17,6 +21,9 @@ export const FooterText = styled.p`
 export const FooterDescription = styled.div`
    display: flex;
    justify-content: center;
+   padding: 0 0 3rem 0;
+   width: 100%;
+   border-bottom: 2px solid #d2d2d2;
 `;
 
 export const FooterInformation = styled.div`
@@ -104,4 +111,11 @@ export const IMG = styled.div`
    &:active {
       transform: scale(0.9);
    }
+`;
+
+export const Copyright = styled.div`
+   display: flex;
+   height: 5rem;
+   align-items: center;
+   justify-content: center;
 `;

@@ -7,6 +7,7 @@ import {
    FooterAbout,
    FooterContact,
    FooterSocialMed,
+   Copyright,
 } from "./Footer.style";
 import { FooterImg } from "./SaveImg";
 import { Mapping } from "./Mapping";
@@ -43,7 +44,11 @@ export const Footer = () => {
                   <Mapping imgMap={FooterImg} />
                </FooterSocialMed>
             </FooterDescription>
-            <div></div>
+            <Copyright>
+               <FooterText>
+                  Copyright ® 2022 prodesigner All rights Rcerved
+               </FooterText>
+            </Copyright>
          </FooterWrapper>
       </Container>
    );
