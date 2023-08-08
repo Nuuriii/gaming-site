@@ -32,6 +32,10 @@ export const MainProjects = styled.div`
    background: linear-gradient(to bottom, rgb(106, 78, 209), rgb(71, 29, 187));
    justify-content: center;
    padding: 3rem 0;
+   @media screen and (min-width: 1680px) {
+      width: 80rem;
+      height: auto;
+   }
 `;
 
 export const DescriptionProject = styled.div`

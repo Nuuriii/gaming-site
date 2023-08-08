@@ -17,7 +17,7 @@ export const Subscribe = () => {
                <h2>Lorem Ipsum</h2>
                <p>
                   Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.{" "}
+                  typesetting industry.
                </p>
             </SubscribeInformation>
             <SubscribeForm>

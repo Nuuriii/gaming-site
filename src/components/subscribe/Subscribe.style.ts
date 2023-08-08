@@ -7,14 +7,22 @@ export const SubscribeWrapper = styled.div`
    align-items: center;
    flex-direction: column;
    padding: 0 0 3rem 0;
+   @media screen and (min-width: 1680px) {
+      width: 80rem;
+      height: auto;
+   }
 `;
 
 export const SubscribeInformation = styled.div`
    display: flex;
    flex-direction: column;
-   background-color: red;
    width: 80%;
    margin: 0 0 3rem 0;
+   color: white;
+   font-family: sans;
+   h2 {
+      margin-bottom: 1rem;
+   }
 `;
 
 export const SubscribeForm = styled.div`
