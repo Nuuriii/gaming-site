@@ -24,6 +24,7 @@ export const FooterInformation = styled.div`
    font-family: sans;
    flex-direction: column;
    color: white;
+   justify-content: center;
    width: 30%;
    h1 {
       margin: 0;
@@ -39,6 +40,8 @@ export const FooterAbout = styled.div`
    display: flex;
    color: white;
    font-family: sans;
+   justify-content: center;
+   margin: 0 2rem 0 2rem;
    flex-direction: column;
    width: 10%;
    h4 {
@@ -60,6 +63,8 @@ export const FooterContact = styled.div`
    width: 30%;
    font-family: sans;
    flex-direction: column;
+   justify-content: center;
+   margin: 0 2rem 0 0;
    h4 {
       margin-bottom: 0.9rem;
    }
