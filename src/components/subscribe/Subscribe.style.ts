@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const SubscribeWrapper = styled.div`
    display: flex;
    flex-direction: column;
+   padding: 0 0 3rem 0;
 `;
 
 export const SubscribeInformation = styled.div`
@@ -14,13 +15,16 @@ export const SubscribeForm = styled.div`
    display: flex;
    background-color: #1c140f;
    border-radius: 0%.3rem;
-   padding: 1rem;
+   justify-content: space-between;
+   padding: 1.2rem 1.6rem;
+   border-radius: 0.8rem;
 `;
 
 export const FormInformation = styled.div`
    display: flex;
    flex-direction: column;
    color: white;
+   width: 50%;
    font-family: sans;
 `;
 
