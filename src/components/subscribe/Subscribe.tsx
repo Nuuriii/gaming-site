@@ -4,6 +4,9 @@ import {
    SubscribeInformation,
    SubscribeForm,
    FormInformation,
+   InputWrapper,
+   SubscribeInput,
+   SubscribeButtons,
 } from "./Subscribe.style";
 
 export const Subscribe = () => {
@@ -25,7 +28,13 @@ export const Subscribe = () => {
                      We promise not to spam you!{" "}
                   </p>
                </FormInformation>
-               <div></div>
+               <InputWrapper>
+                  <SubscribeInput
+                     type='email'
+                     placeholder='Enter email address'
+                  />
+                  <SubscribeButtons>Continue</SubscribeButtons>
+               </InputWrapper>
             </SubscribeForm>
          </SubscribeWrapper>
       </Container>
