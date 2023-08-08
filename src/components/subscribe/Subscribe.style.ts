@@ -72,4 +72,10 @@ export const SubscribeButtons = styled.button`
    color: #fff;
    border: none;
    padding: 0.6rem 0.9rem;
+   &:hover {
+      transform: scale(1.064);
+   }
+   &:active {
+      transform: scale(0.9);
+   }
 `;
