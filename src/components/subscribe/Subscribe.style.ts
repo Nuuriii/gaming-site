@@ -6,7 +6,7 @@ export const SubscribeWrapper = styled.div`
    width: 100%;
    align-items: center;
    flex-direction: column;
-   padding: 0 0 3rem 0;
+   padding: 0 0 9rem 0;
    @media screen and (min-width: 1680px) {
       width: 80rem;
       height: auto;
@@ -70,6 +70,7 @@ export const SubscribeButtons = styled.button`
    background-color: #dc7000;
    border-radius: 0.5rem;
    color: #fff;
+   font-weight: 700;
    border: none;
    padding: 0.6rem 0.9rem;
    &:hover {
