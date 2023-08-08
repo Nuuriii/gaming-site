@@ -15,8 +15,9 @@ export const SubscribeForm = styled.div`
    display: flex;
    background-color: #1c140f;
    border-radius: 0%.3rem;
+   align-items: center;
    justify-content: space-between;
-   padding: 1.2rem 1.6rem;
+   padding: 1.9rem 1.6rem;
    border-radius: 0.8rem;
 `;
 
@@ -26,12 +27,16 @@ export const FormInformation = styled.div`
    color: white;
    width: 50%;
    font-family: sans;
+   h2 {
+      margin: 0 0 0.8rem 0;
+   }
 `;
 
 export const InputWrapper = styled.div`
    display: flex;
    align-items: center;
    padding: 1rem;
+   height: 70%;
    background-color: white;
    border-radius: 0.5rem;
    justify-content: space-between;
