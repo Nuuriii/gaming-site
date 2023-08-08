@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const SubscribeWrapper = styled.div`
    display: flex;
+   background: linear-gradient(to bottom, rgb(71, 29, 187), rgb(106, 78, 209));
+   width: 100%;
+   align-items: center;
    flex-direction: column;
    padding: 0 0 3rem 0;
 `;
