@@ -1,10 +1,11 @@
 import styled from "styled-components";
+import Background from "../../../public/background.svg";
 
 export const WrapperPath = styled.div`
    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
    display: flex;
    flex-direction: column;
-   background-image: url("../../../public/background.svg");
+   background-image: url(${Background});
    min-height: 500px;
    padding: 0 4rem;
    background-attachment: fixed;
