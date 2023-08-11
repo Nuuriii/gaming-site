@@ -7,6 +7,7 @@ export const NavWrapper = styled.div`
    color: white;
    width: 100vw;
    z-index: 1;
+   margin-bottom: 100px;
    padding: 1rem 3rem;
    backdrop-filter: blur(5px);
    position: fixed;
@@ -24,6 +25,9 @@ export const Navigation = styled.ul`
       margin-right: 6.2rem;
       text-decoration: none;
       color: white;
+   }
+   .active {
+      border-bottom: 2px solid orange;
    }
 `;
 
